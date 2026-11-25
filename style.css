@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;background:#f4f6fb;color:#1c2340;font-family:"Segoe UI",system-ui,sans-serif;line-height:1.5}
+.top,main{max-width:1050px;margin:auto;padding:1rem}.top{padding-top:2rem}h1{margin:0;font-size:clamp(1.8rem,5vw,2.5rem)}h1 span{color:#d6246e}.top p{color:#59627f;margin:.2rem 0 0}
+h2{font-size:1.4rem}h2 small{color:#59627f;font-weight:400;font-size:.9rem}.sr{position:absolute;left:-999px}
+.tools{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin-bottom:1rem}input{font:inherit;padding:.6rem .9rem;border:1px solid #d5daea;border-radius:10px;flex:1 1 220px}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}.chip{font:inherit;padding:.4rem .9rem;border-radius:999px;border:1px solid #d5daea;background:#fff;cursor:pointer}.chip[aria-pressed="true"]{background:#27358f;border-color:#27358f;color:#fff}
+.grid,.mine-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}
+.course,.mine-item{background:#fff;border:1px solid #dde1ee;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.banner{height:78px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.6rem}
+.body{padding:1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}.body h3{margin:0;font-size:1.05rem}.meta{color:#59627f;font-size:.9rem;margin:0}
+button.enroll,button.learn-btn{margin-top:auto;font:inherit;font-weight:600;padding:.55rem;border:0;border-radius:8px;background:#27358f;color:#fff;cursor:pointer}
+button.enroll:hover,button.learn-btn:hover{background:#1d2a78}button.done{background:#dff3ea;color:#1c8a5a;cursor:default}
+.bar{height:8px;background:#e5e8f3;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:#1c8a5a;transition:width .3s}
+.mine-list:empty::before{content:"You have not enrolled in any course yet.";color:#59627f}:focus-visible{outline:3px solid #17a8cf;outline-offset:2px}
